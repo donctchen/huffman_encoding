@@ -1,3 +1,4 @@
+##About
 
 use huffman_encoding funciton to build the huffman code
 the algorithm is:

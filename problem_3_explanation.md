@@ -1,9 +1,9 @@
-##About
+## About
 
 use huffman_encoding funciton to build the huffman code
 the algorithm is:
 
-Encoding process:
+## Encoding process:
 
 calc the frequency of data string, save in a dictonary
 character as key and frequency as value
@@ -22,7 +22,7 @@ these nodes in list data structure is easy for sorting
 just by sorted method, and key = lambda x:x.frequency
 the time and space is O(n) for this For loop
 
-use while loop to build huffman tree:
+## use while loop to build huffman tree:
 merge the two nodes:
 read and remove the lowest 2 frquency nodes
 sum of the two frequency
@@ -42,7 +42,7 @@ use a for loop to transfer data string to huffman code
 according to the string/code dictonary
 and return the code and tree
 
-the time complexity:
+## the time complexity:
 the length of priority_queue is decreasing in the loop
 so the time of while loop should be O(n log n)
 and the max memory space is the length of nodes, space complexity is O(n)
@@ -57,7 +57,7 @@ the overall time is O(n log n)
 the space is O(n)
 
 
-Decoding process:
+## Decoding process:
 
 read the code data and tree into huffman_decoding function
 copy the input tree for each new node search
